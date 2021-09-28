@@ -1,19 +1,32 @@
 {
-  "name": "portfolio_nextjs",
+  "name": "nextjs-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-scroll": "^1.8.4",
+    "storybook-addon-next-router": "^3.0.8",
+    "storybook-dark-mode": "^1.0.8",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/react": "^6.3.8",
+    "babel-loader": "^8.2.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2"
   }
