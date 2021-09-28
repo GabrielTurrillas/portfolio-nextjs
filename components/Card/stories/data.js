@@ -1,7 +1,7 @@
 
 export const defaultData = {
   name: 'Front end',
-  techs: ['HTML, CSS', 'JavaScript', 'ReactJS', 'React Hooks', 'Redux', 'React Context'],
+  techs: ['HTML, CSS', 'JavaScript', 'ReactJS', 'React Hooks', 'Redux', 'NextJS'],
   imgSrc: '/FrontendList.svg'
 }
 
@@ -12,11 +12,11 @@ export const frontendListData = {
 }
 export const backendListData = {
   name: 'Back end',
-  techs: ['HTML, CSS', 'JavaScript', 'ReactJS', 'React Hooks', 'Redux', 'React Context'],
+  techs: ['Python', 'JavaScript', 'Django', 'PostgreSQL', 'Node', 'NextJS'],
   imgSrc: '/BackendList.svg'
 }
 export const deployListData = {
   name: 'Deploy',
-  techs: ['HTML, CSS', 'JavaScript', 'ReactJS', 'React Hooks', 'Redux', 'React Context'],
+  techs: ['AWS EC2', 'AWS Route 53', 'Ubuntu Server', 'Nginx', 'Vercel'],
   imgSrc: '/DeployList.svg'
 }

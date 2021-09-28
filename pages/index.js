@@ -35,10 +35,6 @@ export default function Home() {
   }
   const {
     hero,
-    works,
-    worksTextStartFalse,
-    info,
-    infoTextStartFalse,
     technologies,
     infoTitle,
     technologiesTitle,
