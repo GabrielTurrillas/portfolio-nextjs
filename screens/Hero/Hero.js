@@ -15,12 +15,12 @@ const Hero = ({ english, buttonData }) => {
           <TextArea>
             {english ?
               <H1>Hi!, I'm <Magenta>Gabriel Turrillas</Magenta>.
-                I'm a Front end web developer.
+                I'm a web developer.
                 Let's work
                 <Magenta> together</Magenta>!
               </H1>
               :
-              <H1>Hola!, mi nombre es <Magenta>Gabriel Turrillas</Magenta>. Soy desarrollador web Front end.
+              <H1>Hola!, mi nombre es <Magenta>Gabriel Turrillas</Magenta>. Soy desarrollador web.
                 Trabajemos<Magenta> juntos</Magenta>!</H1>
             }
           </TextArea>
