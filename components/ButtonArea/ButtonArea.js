@@ -45,7 +45,7 @@ const Container = styled.div`
   grid-template-rows:2fr 1.5fr;
   grid-template-columns: 1fr;
   background:${colors.background};
-  padding:0 ${externalPadding.mobileS};
+  padding: ${externalPadding.mobileS};
   @media ${device.mobileL}{
     padding:0 ${externalPadding.mobileL};
   }
@@ -56,7 +56,7 @@ const Container = styled.div`
   }
   @media ${device.laptopL}{
     padding:0 ${externalPadding.laptopL};
-    padding-top:1rem;
+    padding-top: 3rem;
   }
   @media ${device.desktop}{
     padding:0 ${externalPadding.desktop};

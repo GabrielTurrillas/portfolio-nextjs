@@ -16,7 +16,7 @@ import {
 export const derivAppData = {
   pagePrimaryButtonData: derivAppPrimaryButtonData,
   codeSecondaryButtonData: derivAppSecondaryButtonData,
-  textStart: false
+  textStart: true
 }
 
 export const authSiteData = {
