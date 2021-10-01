@@ -12,6 +12,11 @@ export const worksCodeData = {
   path: '#!',
 }
 
+export const derivAppData = {
+  engButtonText: 'Go to Code',
+  buttonText: 'Ir al Codigo',
+  path: 'https://derivapp-landingpage-git-main-gabrielturrillas.vercel.app/',
+}
 
 export const authSiteData = {
   engButtonText: 'Go to Code',

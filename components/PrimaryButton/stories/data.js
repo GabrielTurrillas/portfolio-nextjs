@@ -1,3 +1,10 @@
+export const derivAppData = {
+  engButtonText: 'Go to Site',
+  buttonText: 'Ir al Sitio',
+  path: 'https://derivapp-landingpage-git-main-gabrielturrillas.vercel.app/',
+  ankerTag: true
+}
+
 export const authSiteData = {
   engButtonText: 'Go to Site',
   buttonText: 'Ir al Sitio',

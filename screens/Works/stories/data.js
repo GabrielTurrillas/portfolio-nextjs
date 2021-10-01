@@ -3,10 +3,11 @@
 import {
   defaultButtonAreaData,
   textStartFalseButtonAreaData,
+  derivAppButtonAreaData,
   authSiteButtonAreaData,
   thisSiteButtonAreaData,
   pokeAppButtonAreaData,
-  mtgAppButtonAreaData
+  mtgAppButtonAreaData,
 } from '../../../components'
 
 import {
@@ -16,7 +17,13 @@ import {
   thisSiteInfoData,
   pokeAppInfoData,
   mtgAppInfoData,
+  derivAppInfoData
 } from '../..'
+
+export const derivAppData = {
+  ...derivAppInfoData,
+  buttonAreaData: derivAppButtonAreaData
+}
 
 export const authSiteData = {
   ...authSiteInfoData,

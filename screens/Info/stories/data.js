@@ -11,8 +11,14 @@ import {
   frontEndTextAreaData,
   backEndTextAreaData,
   deployTextAreaData,
+  derivAppTextAreaData,
 } from '../../../components'
 
+export const derivAppData = {
+  textAreaData: derivAppTextAreaData,
+  imgAreaData: infoImgAreaData,
+  textStart: false
+}
 
 export const authSiteData = {
   textAreaData: authSiteTextAreaData,

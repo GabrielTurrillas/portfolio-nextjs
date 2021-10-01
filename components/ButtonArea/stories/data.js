@@ -1,6 +1,8 @@
 import {
   worksPagePrimaryButtonData,
   worksCodePrimaryButtonData,
+  derivAppPrimaryButtonData,
+  derivAppSecondaryButtonData,
   authSitePrimaryButtonData,
   authSiteSecondaryButtonData,
   thisSitePrimaryButtonData,
@@ -10,6 +12,12 @@ import {
   mtgAppPrimaryButtonData,
   mtgAppSecondaryButtonData
 } from '../..'
+
+export const derivAppData = {
+  pagePrimaryButtonData: derivAppPrimaryButtonData,
+  codeSecondaryButtonData: derivAppSecondaryButtonData,
+  textStart: false
+}
 
 export const authSiteData = {
   pagePrimaryButtonData: authSitePrimaryButtonData,

@@ -6,6 +6,7 @@ export { defaultData as defaultInfoData } from './Info/stories/data';
 export { textStartFalseData as infoTextStartFalseData } from './Info/stories/data';
 export { defaultWorksInfoData } from './Info/stories/data';
 export { worksInfoTextStartFalseData } from './Info/stories/data';
+export { derivAppData as derivAppInfoData } from './Info/stories/data';
 export { authSiteData as authSiteInfoData } from './Info/stories/data'
 export { thisSiteData as thisSiteInfoData } from './Info/stories/data'
 export { pokeAppData as pokeAppInfoData } from './Info/stories/data'
@@ -17,6 +18,7 @@ export { deployData as deployInfoData } from './Info/stories/data'
 export { default as Works } from './Works/Works';
 export { defaultData as defaultWorksData } from './Works/stories/data';
 export { textStartFalseData as worksTextStartFalseData } from './Works/stories/data';
+export { derivAppData as derivAppWorksData } from './Works/stories/data';
 export { authSiteData as authSiteWorksData } from './Works/stories/data';
 export { thisSiteData as thisSiteWorksData } from './Works/stories/data';
 export { pokeAppData as pokeAppWorksData } from './Works/stories/data';

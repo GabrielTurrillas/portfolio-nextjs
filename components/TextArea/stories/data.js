@@ -7,6 +7,13 @@ export const defaultData = {
   engText: 'Amet amet aute consectetur incididunt commodo mollit aliqua dolore consecteturesse. Sunt cillum anim dolore do ex nisi veniam. Incididunt commodo culpa inincididunt cillum irure voluptate esse.In ea anim commodo',
 }
 
+export const derivAppData = {
+  title: 'DerivApp Landing Page',
+  engTitle: 'DerivApp Landing Page',
+  text: 'Landing page de app para administración de centros psicológicos hecha mobile first en NextJS con Static Site Generation(SSG) para mejorar resultados en SEO.',
+  engText: 'Landing page of app for administration of psychological clinics made mobile first in NextJS with Static Site Generation (SSG) to improve SEO results.'
+}
+
 export const authSiteData = {
   title: 'Sistema de Autentificación',
   engTitle: 'Authentication System',
