@@ -15,7 +15,7 @@ export const worksCodeData = {
 export const derivAppData = {
   engButtonText: 'Go to Code',
   buttonText: 'Ir al Codigo',
-  path: 'https://derivapp-landingpage-git-main-gabrielturrillas.vercel.app/',
+  path: 'https://github.com/GabrielTurrillas/derivapp_landingpage',
 }
 
 export const authSiteData = {
