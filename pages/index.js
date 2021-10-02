@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { useState } from 'react'
 import styled from 'styled-components'
 import { colors } from '../styles';
@@ -43,6 +44,10 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Gabriel Turrillas - Desarrollador Web</title>
+        <meta name='description' content='Portafolios de Gabriel Turrillas. Desarrollador web. Portfolio of Gabriel Turrillas Web Developer' />
+      </Head>
       <Sidebar isOpen={isOpen} toggle={toggle} english={english} toggleSwitch={toggleSwitch} />
       <Navbar setEnglish={setEnglish} toggle={toggle} english={english} toggleSwitch={toggleSwitch} />
       <Hero {...hero} english={english} />
