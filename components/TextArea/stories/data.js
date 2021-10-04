@@ -10,8 +10,8 @@ export const defaultData = {
 export const derivAppData = {
   title: 'DerivApp Landing Page',
   engTitle: 'DerivApp Landing Page',
-  text: 'Landing page de app para administración de centros psicológicos hecha mobile first en NextJS con Static Site Generation(SSG) para mejorar resultados en SEO.',
-  engText: 'Landing page of app for administration of psychological clinics made mobile first in NextJS with Static Site Generation (SSG) to improve SEO results.'
+  text: 'Landing page de app para administración de centros psicológicos hecha mobile first en NextJS con Static Site Generation(SSG) para mejorar resultados en SEO. (En Desarrollo)',
+  engText: 'Landing page of app for administration of psychological clinics made mobile first in NextJS with Static Site Generation (SSG) to improve SEO results. (On Development)'
 }
 
 export const authSiteData = {
