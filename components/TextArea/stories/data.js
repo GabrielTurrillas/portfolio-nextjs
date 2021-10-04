@@ -52,8 +52,8 @@ export const frontEndData = {
 export const backEndData = {
   title: 'Back End',
   engTitle: 'Back End',
-  text: "Me encanta trabajar haciendo API REST en general. Modelar bases de datos en UML para luego verlas funcionando en el mundo real es emocionante. Puedo usar Django REST framework para este propósito como también Node en conjunto con Next.",
-  engText: "I love to work doing REST APIs in Django. Modeling data bases in UML to later see it working in the real world is refreshing. I can use Django REST Framework for this purpose as well as Node in conjunction with Next.",
+  text: "Me encanta trabajar desarrollando API REST en general. Modelar bases de datos en UML para luego verlas funcionando en el mundo real es emocionante. Puedo usar Django REST framework para este propósito como también Node en conjunto con Next.",
+  engText: "I love to work developing REST APIs in Django. Modeling data bases in UML to later see it working in the real world is refreshing. I can use Django REST Framework for this purpose as well as Node in conjunction with Next.",
 }
 
 export const deployData = {
