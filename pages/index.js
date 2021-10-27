@@ -53,11 +53,11 @@ export default function Home() {
       <Hero {...hero} english={english} />
       <Wrapper id='works'>
         <BigTitle {...worksTitle} english={english} />
-        <Works {...derivAppWorksData} src='/DerivApp.png' english={english} />
-        <Works {...authSiteWorksData} src='/AuthSite.png' english={english} />
-        <Works {...thisSiteWorksData} src='/ThisVerySite.png' english={english} />
-        <Works {...pokeAppWorksData} src='/PokemonSite.png' english={english} />
         <Works {...mtgAppWorksData} src='/MTGAppSite.png' english={english} />
+        <Works {...pokeAppWorksData} src='/PokemonSite.png' english={english} />
+        <Works {...thisSiteWorksData} src='/ThisVerySite.png' english={english} />
+        <Works {...authSiteWorksData} src='/AuthSite.png' english={english} />
+        <Works {...derivAppWorksData} src='/DerivApp.png' english={english} />
       </Wrapper>
       <Wrapper id='habilities'>
         <BigTitle {...infoTitle} english={english} />
